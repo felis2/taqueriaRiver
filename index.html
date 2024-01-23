@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taquería "river"🌮</title>
+</head>
+<body>
+    <header>
+        <!-- LOGO -->
+        <img src="imagenes/png-transparent-mexican-cuisine-taco-taqueria-logo-taqueria-food-text-poster.png" alt="LOGO" width="200px">
+        <!-- TÍTULO DE LA PÁGINA -->
+        <h1>TAQUERÍA "RIVER"</h1>
+        <nav>
+            <ul>
+                <!-- MENÚ -->
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Menú</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+
+    </header>
+     <main>
+        <section>
+            <h2>ACERCA DE NOSOTROS</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/kQAcWVSH2gg?si=TK7ZANqRIo8OVEaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit deserunt consectetur assumenda eaque! Cum modi dolores eveniet molestias dolorum necessitatibus maiores repellat non cumque, eos earum ullam tenetur quia omnis excepturi, reiciendis soluta illum. Dicta, eveniet! Quod voluptatem accusantium expedita blanditiis omnis earum eius, vero facere obcaecati illum ea quas vitae cupiditate numquam, incidunt dolores porro pariatur! Soluta error harum laborum est odio cum minima ad? Dolores numquam nostrum doloribus beatae illum natus maxime facere sed laudantium magnam minus, eos in iusto cumque deserunt, sit, quod provident incidunt magni deleniti possimus unde. Non reiciendis unde enim, assumenda mollitia debitis consequatur explicabo id incidunt labore voluptas et sed quis fugit? Assumenda, tenetur! Autem ea rerum quibusdam, in dolores hic ut unde quidem, odio ratione esse, temporibus iusto quam accusantium fugiat quas excepturi consectetur id mollitia voluptatum? Ut ex tenetur sapiente voluptas corrupti unde obcaecati ipsa veniam aut, autem, accusamus maxime! Numquam maiores dolorum praesentium quis mollitia fugit nemo quam esse, tempora necessitatibus quia laudantium nobis aut blanditiis deserunt possimus quaerat dolore omnis dicta reprehenderit sint! Sed dignissimos numquam ex possimus debitis odit ipsum inventore, quo nulla voluptate repellendus ipsa excepturi nam iusto deleniti quos dolor magni odio esse quisquam accusantium id?</p>
+
+        </section>
+        <!-- segunda sección -->
+        <section>
+            <h2>MENÚ</h2>
+            <h3>Sencillos</h3>
+            <ol>
+                <li>Bistec..............................$15.00</li>
+                <ul>
+                    <li>Tortilla grande</li>
+                    <li>Nopales o papas</li>
+                    <li>Salsa pico de gallo</li>
+                </ul>
+                <li>Longaniza...........................$10.00</li>
+                <li>Suadero.............................$15.00</li>
+                <li>Chuleta.............................$17.00</li>
+                <ul>
+                    <li>Cebolla</li>
+                    <li>Cilantro</li>
+                    <li>Salsa especial</li>
+                    <li>Salsa BBQ</li>
+                </ul>
+            </ol>
+
+            <h3>Especialidades</h3>
+            <!-- Lita descriptiva -->
+            <dl>
+                <dt>Alambre..................................$20.00</dt>
+                <dd>Contiene chuleta, bistec y chile morron</dd>
+                <dt>Campechano..................................$20.00</dt>
+                <dd>Contiene bistec y longaniza</dd>
+                <dt>Especial..................................$25.00</dt>
+                <dd>Contiene de todo un poco</dd>
+            </dl>
+            <h3>Bebidas</h3>
+            <ul>
+                <li>Refresco...........................................$18.00</li>
+                <li>Tepache............................................$15.00</li>
+                <li>Agua de sabor.......................................$25.00</li>
+            </ul>
+            <h2>Ordena ya 😋👅</h2>
+            <form action="" method="">
+                <!-- name es indispensable -->
+                Nombre: <input type="text" name="nombre" placeholder="Ejemplo Juan" minlength="3" maxlength="15" size="15" required><br>
+                Recolección o envio: <input type="radio" name="envio" value="envio">envio 
+                <input type="radio" name="envio" value="recolecta">Recolecta <br>
+                Teléfono: <input type="tel" name="telefono" minlength="10" maxlength="10" placeholder="10 dígitos"><br>
+                Correo: <input type="email" name="Correo"><br>
+                Dirección en caso de envio: <input type="text" name="dirección" placeholder="Calle,número,colonia,alcaldia" size="100"><br>
+                Si realizaste transferencia anexa comprobante: <input type="file"><br>
+
+                Fecha: <input type="date" name="fecha" value="2024-01">
+                <p>Ordena</p>
+                <input type="checkbox" name="bistec" value="si">Bistec <br>
+                <input type="number" min="0" max="50"><br>
+                <input type="checkbox" name="Suadero" value="si">Suadero <br>
+                <input type="number" min="0" max="50"><br>
+                <input type="checkbox" name="Longaniza" value="si">Longaniza <br>
+                <input type="number" min="0" max="50"><br>
+                <input type="checkbox" name="Chuleta" value="si">Chuleta <br>
+                <input type="number" min="0" max="50"><br>
+                <input type="checkbox" name="Campechano" value="si">Campechano <br>
+                <input type="number" min="0" max="50"><br>
+                <input type="checkbox" name="Especial" value="si">Especial <br>
+                <input type="number" min="0" max="50"><br>
+
+                Verdura: <input type="radio" name="complemento" value="junto">
+
+                Salsas: <select name="salsa" id="">
+                    <option value="">Seleciona la salsa</option>
+                    <option value="Verde">Verde</option>
+                    <option value="Roja">Roja</option>
+                    <option value="guacamole">Guacamole</option>
+                    <option value="habanero">Habanero</option>
+                </select>
+                <br><br>
+                <input type="submit" value="Ordena ya 😜">
+                <input type="reset" value="Limpiar">
+
+            </form>
+
+        </section>
+
+     </main>
+     <footer>
+        <hr>
+        <!-- TABLAS -->
+        <table border="2">
+            <tr>
+                <th colspan="3">SUCURSALES</th>
+
+            </tr>
+            <tr>
+                <td rowspan="3">Zona sur</td>
+                <td>sucursal 1</td>
+                <td>Dirección</td>
+
+            </tr>
+            <tr>
+                <td colds   ="3"> Zona sur</td>
+                <td>Sucursal 2</td>
+                <td>Calle 2 número 6</td>
+
+            </tr>
+            <tr>
+                <td>Sucursal 2</td>
+                <td>Calle 2 número 6</td>
+
+
+            </tr>
+        </table>
+        <a href="http:/www.facebook.com" target="_blank"><img src="imagenes/facebook.png" alt=""></a>
+        <img src="imagenes/whatsapp (1).png" alt="">
+        <img src="imagenes/telefono.png" alt="">
+       
+        <img src="imagenes/email.png" alt="">
+
+        
+     </footer>   
+</body>
+</html>
